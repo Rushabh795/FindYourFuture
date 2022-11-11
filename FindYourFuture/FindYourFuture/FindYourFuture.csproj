@@ -53,4 +53,10 @@
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Resources\Images\dog.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="**/*" />
+	</ItemGroup>
 </Project>
